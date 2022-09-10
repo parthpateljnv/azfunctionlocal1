@@ -4,7 +4,7 @@ import azure.functions as func
 
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
-    logging.info('Python HTTP trigger function processed a request. deployment slot')
+    logging.info('Python HTTP trigger function processed a request. deployment slot staging ')
 
     name = req.params.get('name')
     if not name:
